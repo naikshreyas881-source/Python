@@ -1,0 +1,11 @@
+age=int(float(input("enter the age of the person :")))
+if age==18:
+    print("may be eligible may not be eligible ")
+
+elif age>18:
+    print("eligible to vote")
+if age == (17.9):
+    print("may be not eligibleee")
+elif age < 18:
+    print("not eligible to vote"
+          )
