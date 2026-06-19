@@ -1,0 +1,15 @@
+# Swap Two Numbers Without a Third Variable
+a=10
+b=20
+(a,b)=(b,a)
+print(a)
+print(b)
+
+#Swapping using multiple assignment in Python
+a=10
+b=20
+c=a+b
+a=c-a
+b=c-b
+print(a)
+print(b)
