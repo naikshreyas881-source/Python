@@ -13,3 +13,8 @@ a=c-a
 b=c-b
 print(a)
 print(b)
+
+#Find the Last Digit of a Number 9876
+n=9876
+last_digit=n%10
+print(last_digit)
