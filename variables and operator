@@ -18,3 +18,14 @@ print(b)
 n=9876
 last_digit=n%10
 print(last_digit)
+
+
+#Reverse a 3-Digit Number Using Operators
+a=123
+a=1
+b=2
+c=3
+a=a+b
+b=b
+c=c-b
+print(a,b,c)
