@@ -36,4 +36,6 @@ n=800
 Months=((n/365)/12)
 year=n/365
 days=n
+print("number of months =",Months)
+print("number of year =",year)
 
