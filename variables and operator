@@ -38,4 +38,6 @@ year=n/365
 days=n
 print("number of months =",Months)
 print("number of year =",year)
+print("number of days =",days)
+
 
