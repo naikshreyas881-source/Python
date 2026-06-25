@@ -30,6 +30,10 @@ b=b
 c=c-b
 print(a,b,c)
 
-Convert Total Days into Years, Months, and Days
-Input:800 days
+#Convert Total Days into Years, Months, and Days
+#Input:800 days
+n=800
+Months=((n/365)/12)
+year=n/365
+days=n
 
