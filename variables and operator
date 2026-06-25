@@ -29,3 +29,7 @@ a=a+b
 b=b
 c=c-b
 print(a,b,c)
+
+Convert Total Days into Years, Months, and Days
+Input:800 days
+
