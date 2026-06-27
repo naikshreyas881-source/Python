@@ -21,3 +21,14 @@ else:
         print("Weird")
     else:
         print("Not Weird")
+
+n=int(input("enter the number"))
+if(n%2 !=0):
+    print("Weird")
+else:
+    if (2<=n<=5):
+        print("not Weird")
+    elif (6<=n<=20):
+        print("Weird")
+    else:
+        print("not Weird")
