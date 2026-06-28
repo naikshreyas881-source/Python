@@ -30,5 +30,7 @@ else:
         print("not Weird")
     elif (6<=n<=20):
         print("Weird")
-    else:
-        print("not Weird")
+
+    n = int(input().strip())
+
+
