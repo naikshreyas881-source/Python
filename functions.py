@@ -7,7 +7,7 @@ def greet(sname, nname):
 
 name = ("shreyas", "bhai")
 greet(name[0], name[1])
-from operator import truediv
+
 
 
 # average of thr terms
