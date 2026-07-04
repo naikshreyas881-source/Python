@@ -40,4 +40,20 @@ print("number of months =",Months)
 print("number of year =",year)
 print("number of days =",days)
 
+#Find the Sum of Digits of a 3-Digit Number Input: 456
+n=564
+last_digit = n%10
+n = n//10
+
+middle_digit = n%10
+n = n//10
+
+first_digit = n%10
+n= n//10
+
+total=(last_digit+middle_digit+first_digit)
+print(total)
+#output=15
+
+
 
