@@ -75,4 +75,16 @@ print(seconds)
 # 123.06666666666666
 # 7384
 
+#Find the Largest of Three Numbers Using Comparison Operators
+a=45
+b=78
+c=56
+if(a>b and  a>c):
+    print(a)
+elif(b>a and b>c):
+    print(b)
+else:
+    print(c)
+# output=78
+
 
