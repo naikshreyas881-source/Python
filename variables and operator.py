@@ -87,4 +87,16 @@ else:
     print(c)
 # output=78
 
+#Check Whether a 3-Digit Number is a Palindrome
+n=121
+a=n%10
+n=n//10
+b=n%10
+n=n//10
+c=n%10
+n=n//10
+a=c
+print("it is a palindrome")
+#output=it is a palindrome
+
 
