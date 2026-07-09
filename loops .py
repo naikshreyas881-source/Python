@@ -117,3 +117,8 @@ for i in range (1,n+1):
     for j in range(1,i+1):
         print(j,end="")
     print()
+#print the numbers 5 4 3 2 1
+count=5
+while(count>0):
+    print(count)
+    count=count-1
