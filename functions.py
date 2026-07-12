@@ -116,10 +116,19 @@ def check_even_odd(num):
 result=check_even_odd(num)
 print(result)
 
-#lists
-list=[1,2,3,4,5,6,7,8,"true,","shreyas",False,4,5,6,7,8,9,546542,6,653,]
-print(list[1:12:2])
-print(list[13])
+
+#Write a function that takes a name and prints:
+def name(lname,nname):
+    print("hello",lname,nname)
+name("shreyas",'naik')
+
+#Write a function to add two numbers.
+def add(a,b):
+    return(a+b)
+result=add(4,5)
+print(result)
+
+
 
 
 
