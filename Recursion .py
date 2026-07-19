@@ -5,3 +5,12 @@ def factorial(n):
     else:
         return(n*factorial(n-1))
 print(factorial(5))
+
+# # fibonacci sequence
+def fibbonacci(n):
+    if n<=1:
+        return 1
+    else:
+        return(fibbonacci(n-1)+fibbonacci(n-2))
+print(fibbonacci(4))
+
