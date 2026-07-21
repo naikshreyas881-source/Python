@@ -33,4 +33,14 @@ else:
 
     n = int(input().strip())
 
+num=int(input("enter the number"))
+if (num%2==0):
+    print("weird")
+    if (num%2==0 and 2<=num>=5):
+        print("not weird")
+        if (num%2==0 and 6<=num>=20):
+            print("weird")
+            if (num>20):
+                print("Not weird")
+
 
