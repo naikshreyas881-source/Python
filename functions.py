@@ -141,6 +141,12 @@ for i in range(len(nums)):
 print(freq_map)
 
 
+#print a name with hello
+def greet (sname):
+    print("Hello",sname)
+greet("shreyas")
+
+
 
 
 
