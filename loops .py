@@ -166,3 +166,12 @@ while n>0:
       count+=1
 print(count)
 #output=6
+
+# count the numbner of digit in an integer
+n=423568
+count=0
+while n>0:
+      n=n//10
+      count+=1
+print(count)
+#output=6
