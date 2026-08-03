@@ -14,3 +14,10 @@ def fibbonacci(n):
         return(fibbonacci(n-1)+fibbonacci(n-2))
 print(fibbonacci(4))
 
+# print Nto1
+def func(n):
+    if n == 0:
+        return
+    print(n)
+    func(n-1)
+func(6)
