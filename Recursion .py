@@ -21,3 +21,12 @@ def func(n):
     print(n)
     func(n-1)
 func(6)
+
+# print sum of 1 to N
+def func(sum,i,n):
+    if i>n:
+        print(sum)
+        return
+        func(sum,i+1,n)
+func(0,1,6)
+print(func)
