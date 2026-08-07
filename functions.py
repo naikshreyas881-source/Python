@@ -157,6 +157,14 @@ for num in m:
     else:
        print(hash_list[num])
 
+# print 1toN
+def func(n):
+    if n == 0:
+        return
+    func(n-1)
+    print(n)
+func(6)
+
 
 
 
