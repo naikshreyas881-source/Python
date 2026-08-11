@@ -142,7 +142,7 @@ print(num%10)
     print(count)
 #output=8
 
-Check if a number is Palindrome or Not
+# Check if a number is Palindrome or Not
 num = 153
 n = num
 rev = 0
