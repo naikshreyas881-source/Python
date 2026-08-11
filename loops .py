@@ -175,3 +175,8 @@ while n>0:
       count+=1
 print(count)
 #output=6
+# Given an integer n, print the numbers from 1 to n consecutively without spaces or new lines.
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(1,n+1):
+        print(i,end="")
