@@ -165,6 +165,11 @@ def func(n):
     print(n)
 func(6)
 
+# Given a person's first and last name, print: Hello firstname lastname! You just delved into python.
+def print_full_name(first, last):
+    print(f"Hello {first} {last}! You just delved into python.")
+if __name__ == '__main__':
+
 
 
 
