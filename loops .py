@@ -45,6 +45,15 @@ for i in range(1, 101, 2):
     total = total + i
     print(total)
 
+#Count the number of Digits in an Integer
+ num=75443467
+ count=0
+
+ while num>0:
+     count+=1
+     num=num//10
+    print(count)
+
 #Find the sum of the first N natural numbers.
 n=6
 total=0
