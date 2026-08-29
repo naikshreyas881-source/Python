@@ -33,6 +33,14 @@ else:
 
     n = int(input().strip())
 
+###maximum of Two Numbers
+def check_maximum(a,b):
+    if a < b:
+        print("A is maximum")
+    else:
+        print("B is maximum")
+check_maximum(75,7)
+
 num=int(input("enter the number"))
 if (num%2==0):
     print("weird")
