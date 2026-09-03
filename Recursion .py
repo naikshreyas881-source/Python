@@ -30,3 +30,17 @@ def func(sum,i,n):
         func(sum,i+1,n)
 func(0,1,6)
 print(func)
+
+# Input: arr = [5, 5, 5, 5]
+# Output: 5
+# Explanation: The largest element of the given array is 5.
+from typing import List
+
+class Solution:
+    def largest(self, arr: List[int]) -> int:
+        pass
+        largest=float("-inf")
+        n=len(arr)
+        for i in  range (0,n):
+            largest=max(largest,arr[i])
+        return largest
