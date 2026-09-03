@@ -6,3 +6,4 @@ colors =["red","green","blue","yellow","green"]
 print(colors[-1])
 print(colors[-3])
 print(colors[-5])
+
