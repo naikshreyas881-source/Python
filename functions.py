@@ -200,6 +200,18 @@ def selectionSort(self, arr: List[int]) -> List[int]:
 
         return arr
 
+from typing import List
+
+class Solution:
+    def largest(self, arr: List[int]) -> int:
+        pass
+        largest=arr[0]
+        n=len(arr)
+        for i in  range (0,n):
+            largest=max(largest,arr[i])
+        return largest 
+
+
 
 
 
