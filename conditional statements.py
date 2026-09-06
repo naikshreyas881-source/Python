@@ -82,3 +82,13 @@ def is_leap(year):
 year = int(input())
 
 
+while num > 0:
+    ld = num % 10
+    rev = rev * 10 + ld
+    num = num // 10
+
+if rev == n:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+
