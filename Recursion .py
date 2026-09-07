@@ -44,3 +44,15 @@ class Solution:
         for i in  range (0,n):
             largest=max(largest,arr[i])
         return largest
+
+#Find the Largest of Three Numbers Using Comparison Operators
+a=45
+b=78
+c=56
+if(a>b and  a>c):
+    print(a)
+elif(b>a and b>c):
+    print(b)
+else:
+    print(c)
+# output=78
