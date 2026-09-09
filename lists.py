@@ -7,3 +7,14 @@ print(colors[-1])
 print(colors[-3])
 print(colors[-5])
 
+#Convert Seconds into Hours, Minutes, and Seconds
+n=7384
+hour=(7384/(60*24))
+minutes=(7384/60)
+seconds=n
+print(hour)
+print(minutes)
+print(seconds)
+# output=5.127777777777778
+# 123.06666666666666
+# 7384
