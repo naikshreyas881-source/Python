@@ -209,7 +209,20 @@ class Solution:
         n=len(arr)
         for i in  range (0,n):
             largest=max(largest,arr[i])
-        return largest 
+        return largest
+
+# Check if an Array is Sorted
+
+from typing import List
+
+class Solution:
+    def arraySortedOrNot(self, arr: List[int]) -> bool:
+        pass
+        n=len(arr)
+        for i in range (0,n-1):
+            if arr[i]> arr[i+1]:
+                return False
+        return True
 
 
 
