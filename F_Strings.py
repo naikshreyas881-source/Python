@@ -1,4 +1,4 @@
-letter="hey my name is{}and i am from {}"
+7letter="hey my name is{}and i am from {}"
 name="shreyas"
 country="india"
 print(letter.format(name,country))
@@ -15,6 +15,13 @@ print(seconds)
 # output=5.127777777777778
 # 123.06666666666666
 # 7384
+#Calculate Compound Interest
+p=10000
+r=10
+t=2
+compound_intrest=p*((1+r/100)*(1+r/100))
+print(compound_intrest)
+# output=12100.000000000002
 #Calculate Compound Interest
 p=10000
 r=10
